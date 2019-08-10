@@ -1,27 +1,54 @@
 <html>
    <head>
 <style>
+ 
+ 
+  body{
+     display: flex;
+     flex-direction:column
+     
+    }
+  
   .contenedor-titulo{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: blue;
+    background-color: grey;
   } 
     .titulo{
       color:white;
-    }
+      }
+
+
     .contenedor-imagenes{
         display: flex; 
         width: 90%;
         flex-wrap:wrap;
-        justify-content: space-around
-     } 
+        justify-content: space-around;
+        background-color: aquamarine
+        } 
+       
        .imagenes{
-        width: 150px;
-        margin: 20px;
-        
-     } 
+        display: flex;
+        max-width: 300px; 
+        margin: 10px
+       } 
+     
+        .imagen1{
+        display: flex; 
+        width: 300px;
+      
+        } 
 
+       #menu{
+        display: flex;
+        flex-direction:  row;
+        justify-content: space-around;
+        background-color: burlywood
+       } 
+        p{
+        color: green;
+        } 
 
   </style>
 
@@ -33,14 +60,15 @@
 
    <h1 class="titulo"> DIPLONADO RODRIGO  </h1> 
     </div> 
-  <div>
-    <p>Inicio</p>
-  <p>Temas</p>
+  <div id="menu">
+  <p>Inicio</p>
+  <a href="https://anydesk.com/es/downloads/windows">   <p>Temas</p> </a>
   <p>Profesores</p> 
   <p>Estudientes</p> 
   </div> 
-<div class= "contenedor-imagenes">
-  <img class= "imagenes" src= "https://www.nationalgeographic.com.es/medio/2019/07/12/isabela_4302c956_955x1200.jpg">
+<iframe width="763" height="429" src="https://www.youtube.com/embed/zpSBU0eUmmw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  <div class= "contenedor-imagenes">
+ <div class= "contenedor-imagenes">
+  <img class= "imagenes imagen1" src= "https://www.nationalgeographic.com.es/medio/2019/07/12/isabela_4302c956_955x1200.jpg">
   <img class= "imagenes" src= "https://www.nationalgeographic.com.es/medio/2010/04/21/europasalvaje03_714x476.jpg">
   <img class= "imagenes" src= "https://www.nationalgeographic.com.es/medio/2010/04/21/europasalvaje03_714x476.jpg">
   
